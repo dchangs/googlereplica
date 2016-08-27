@@ -116,3 +116,74 @@
 	float: right;
 	padding-right: 10px
 }
+
+
+@media (max-width: 800px) {
+	.searchbar {
+		width: 60%;
+	}
+
+	.searchbar input {
+		width: 100%;
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	.searchbar img {
+		display: none;
+	}		
+}
+
+@media (max-width: 540px) {
+	.main img {
+		width: 300px;
+		height: 120px;
+	}
+
+	.searchbuttons {
+		height: 30px;
+		width: 280px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.searchbuttons button {
+		 width: 100px;
+		 height: 30px;
+		 font-size: 10px;
+		 margin: 5px 20px;
+		 display: inline-block;
+		 float: left;
+	}
+
+	.searchbar input {
+		font-size: 12px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 450px) {
+	div.header ul {
+		padding-left: 0;
+		margin-right: 0;
+	}
+	.footer {
+		padding-left: 0;
+	}
+	.about li {
+		margin: 5px;
+	}
+	.settings li {
+		margin: 5px;
+	}
+}
+
+@media(max-width: 400px) {
+	.footer {
+		text-align: center;
+		font-size: 10px;
+	}
+	ul.about {
+		padding-left: 0;
+	}
+}
